@@ -1,6 +1,7 @@
-package com.example.sample.sampleprimer;
+package com.example.sample.sampleprimer.activities;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Point;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,6 +11,9 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.example.sample.sampleprimer.Profile;
+import com.example.sample.sampleprimer.R;
+import com.example.sample.sampleprimer.SwipableCard;
 import com.example.sample.sampleprimer.utils.Utils;
 import com.mindorks.placeholderview.SwipeDecor;
 import com.mindorks.placeholderview.SwipePlaceHolderView;
@@ -75,6 +79,11 @@ public class MainActivity extends AppCompatActivity {
                 if (count == 0) {
                     ivHome.setEnabled(true);
                     ivHome.setClickable(true);
+                }
+
+                if (count == 5) {
+                    Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
+                    startActivity(intent);
                 }
             }
         });

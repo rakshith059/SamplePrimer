@@ -1,4 +1,17 @@
 <resources>
     <string name="app_name">SamplePrimer</string>
     <string name="dummy_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="email_hint">Enter your email-id</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="sign_up">Register</string>
+    <string name="registered_login">Already registered? LOGIN</string>
+    <string name="login">LOGIN</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="email_empty_error">Please enter email-id</string>
+    <string name="password_empty_error">Password cannot be empty</string>
+    <string name="password_short_error">Password is too short.. Please enter 6 characters!</string>
+    <string name="email_password_error">Please enter valid email-id and password</string>
+    <string name="btn_back">back</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="forgot_password_msg">We just need your registered Email id to send you password reset instruction</string>
 </resources>
